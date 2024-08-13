@@ -1,4 +1,9 @@
 # Write your solution here
+def range_of_list(list):
+    srt = sorted(list)
+    val = srt[-1] - srt[0]
+    return val
+
 # You can test your function by calling it within the following block
 if __name__ == "__main__":
     my_list = [3, 6, -4]
